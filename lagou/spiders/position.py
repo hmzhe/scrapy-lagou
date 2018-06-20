@@ -58,7 +58,7 @@ class PositionSpider(scrapy.Spider):
 			#返回解密后的16进制结果
 			return sign
 
-		pwd = hash('459693361zhe')
+		pwd = hash('*********')
 		pwd_str = 'veenike' + pwd + 'veenike'
 		pwd_str = hash(pwd_str)
 		forge_toekn, forge_code = self.get_token(response)
